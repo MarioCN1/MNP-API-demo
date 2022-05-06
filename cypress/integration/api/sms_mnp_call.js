@@ -11,6 +11,7 @@ describe('Api Tests',function() {
             expect(response.status).to.be.equal(200);
             expect(response.body).not.to.be.null;
             expect(response.body).to.have.property('numbertype', 'mobile');
+        
         })
     })       
 })
